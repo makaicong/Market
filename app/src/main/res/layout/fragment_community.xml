@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:orientation="horizontal"
+                >
+
+                <android.support.v7.widget.CardView
+
+                    android:stateListAnimator="@animator/cardview_anim"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:elevation="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginEnd="12dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="5dp">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.66"
+                            android:background="#978eb3" />
+                        <TextView
+
+                            android:id="@+id/textView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:text="校园社区"
+                            android:textColor="#ffffff"
+
+                            android:textSize="24sp"
+                            android:layout_marginTop="13dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginStart="17dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:text="快速、真实的交易平台"
+
+                            android:textColor="#ffffff"
+                            android:id="@+id/textView4"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginEnd="11dp"
+                            android:layout_marginBottom="10dp" />
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+
+            </RelativeLayout> <!--> 横幅、搜索<-->
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <android.support.v7.widget.CardView
+                            android:stateListAnimator="@animator/cardview_anim"
+                            android:foreground="?attr/selectableItemBackground"
+
+                            android:elevation="5dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginStart="2dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginTop="2dp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginEnd="10dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginBottom="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+                                <ImageView
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/ic_wwwwwww"
+                                    android:id="@+id/community_my_college"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="4"/>
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="1"
+                                    android:gravity="center_horizontal"
+                                    android:text="我的大学" />
+                            </LinearLayout>
+
+
+                        </android.support.v7.widget.CardView>
+
+
+                    </RelativeLayout>  <!--> 本校<-->
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <android.support.v7.widget.CardView
+                            android:stateListAnimator="@animator/cardview_anim"
+                            android:foreground="?attr/selectableItemBackground"
+
+                            android:layout_alignParentTop="true"
+                            android:layout_marginTop="2dp"
+                            android:elevation="5dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginBottom="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+                                <ImageView
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/ic_eeeeee"
+                                    android:id="@+id/community_my_tongcheng"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="4"/>
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="1"
+                                    android:gravity="center_horizontal"
+                                    android:text="同城校园" />
+                            </LinearLayout>
+
+
+                        </android.support.v7.widget.CardView>
+
+
+                    </RelativeLayout>
+                    <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <android.support.v7.widget.CardView
+                        android:stateListAnimator="@animator/cardview_anim"
+                        android:foreground="?attr/selectableItemBackground"
+
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginEnd="2dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="2dp"
+                        android:elevation="5dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginStart="10dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+                            <ImageView
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/ic_vvv"
+                                android:id="@+id/community_my_other"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="4"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="1"
+                                android:gravity="center_horizontal"
+                                android:text="专用通道" />
+                        </LinearLayout>
+
+
+                    </android.support.v7.widget.CardView>
+
+
+                </RelativeLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:background="#ffffff"
+                android:layout_height="20dp">
+
+                <View
+                    android:layout_width="120dp"
+                    android:layout_height="1dp"
+                    android:layout_centerVertical="true"
+                    android:background="#eee"
+                    android:layout_marginRight="5dp"
+                    android:layout_toLeftOf="@+id/jinxuan_tongcheng"
+                    > </View>
+
+                <TextView
+                    android:id="@+id/jinxuan_tongcheng"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="精选·同城"
+                    android:layout_centerInParent="true"
+                    />
+                <View
+                    android:layout_width="120dp"
+                    android:layout_height="1dp"
+                    android:layout_centerVertical="true"
+                    android:background="#eee"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/jinxuan_tongcheng"
+                    >
+
+                </View>
+
+            </RelativeLayout>  <!--> 精选同城 <-->
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/communityRecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+            </android.support.v7.widget.RecyclerView>
+
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>
+
